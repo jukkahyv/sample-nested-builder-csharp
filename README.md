@@ -1,5 +1,7 @@
 # Sample for nested builder pattern in C#
 
+Making use of Action<T> and "out" parameters, with optional discards.
+
 ```csharp
 var docTree = new DocumentTreeBuilder()
     .AddFolder("My files", folder => folder
