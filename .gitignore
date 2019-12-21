@@ -1,0 +1,4 @@
+*.suo
+.vs/
+DocumentTreeBuilder/bin/
+DocumentTreeBuilder/obj/
