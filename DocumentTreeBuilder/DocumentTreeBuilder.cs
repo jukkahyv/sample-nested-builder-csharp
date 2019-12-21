@@ -58,7 +58,7 @@ namespace DocumentTreeBuilderSample {
             return this;
         }
 
-        public FolderBuilder WithIcon(string icon) {
+        public FolderBuilder SetIcon(string icon) {
             Folder.Icon = icon;
             return this;
         }

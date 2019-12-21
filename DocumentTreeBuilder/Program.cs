@@ -6,6 +6,7 @@ namespace DocumentTreeBuilderSample {
 
             var docTree = new DocumentTreeBuilder()
                 .AddFolder("My files", folder => folder
+                    .SetIcon("myicon.png")
                     .AddDocument(Model.DocumentType.Text, out var textDocument)
                     .AddSubFolder("Images", imgFolder => imgFolder
                         .AddDocument(Model.DocumentType.Image, doc => doc.AddLink(textDocument))
